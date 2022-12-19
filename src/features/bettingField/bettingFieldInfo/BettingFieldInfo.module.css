@@ -1,0 +1,9 @@
+.balance {
+  width: 100%;
+  text-align: center;
+}
+
+.winningBet {
+  color: green;
+  font-weight: bold;
+}

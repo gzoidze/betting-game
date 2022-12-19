@@ -1,0 +1,31 @@
+.bettingSpot {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1px solid;
+}
+
+.bettingSpot5:nth-child(5n) {
+  border: none;
+}
+
+.bettingSpot10:nth-child(10n) {
+  border: none;
+}
+
+.bettingSpotInput {
+  width: 100%;
+  outline: none;
+  border: 0;
+  border-radius: 5px;
+  padding-left: 10px;
+  font-size: 12px;
+}
+
+.bettingSpotInput::-webkit-outer-spin-button,
+.bettingSpotInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
